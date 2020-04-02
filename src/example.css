@@ -1,0 +1,64 @@
+html,body{
+    height: 100%;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+.aside {
+    display: flex;
+    flex: none;
+    width: 300px;
+    background-color: #bfbab078;
+}
+.header {
+    display: flex;
+    background-color: #00c73c;
+}
+.gnb, .logo, .search{
+    flex: none;
+}
+.aa{
+    display: flex;
+    margin-left: auto;
+}
+.logo, .gnb {
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, .4);
+}
+.search {
+    display: flex;
+    width: 400px;
+    padding: 14px 0;
+    margin-left: 10px;
+}
+.search_button {
+    width: 37px;
+    border: 0;
+    background-color: #26a93a;
+}
+input{
+    flex: 1;
+    width: 322px;
+    height: 37px;
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+.table_header{
+    margin: 50px auto auto;
+    flex: none;
+    height: 40px;
+}
+
+
